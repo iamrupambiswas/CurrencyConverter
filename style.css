@@ -9,11 +9,16 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 213, 202);
+    font-family: "open sans-serif";
+}
+
+body h1{
+    text-align: center;
 }
 
 .container{
     background-color: rgb(255, 255, 255);
-    height: 50vh;
+    height: 60vh;
     width: 60vh;
     padding: 1rem;
     border-radius: 2rem;
@@ -24,7 +29,7 @@ body{
 }
 
 form{
-    margin: 0.75rem;
+    margin: 1rem 0.75rem;
 }
 
 form select, input, button{
@@ -45,7 +50,15 @@ form input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
+    margin-top: 1rem;
+}
+
+.dropdown i{
+    margin: 2rem;
+}
+
+.dropdown select{
+    cursor: pointer;
 }
 
 .select-container{
@@ -62,9 +75,14 @@ form input{
 }
 
 button{
-    height: 2rem;
-    background-color: #502d51;
-    color: aliceblue;
+    height: 2.5rem;
+    background-color: skyblue;
+    color: rgb(69, 21, 21);
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: purple;
+    color: whitesmoke;
 }
