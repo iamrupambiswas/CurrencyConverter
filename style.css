@@ -23,8 +23,8 @@ body h1{
 /*
     1. Container - 33
     2. Form - 46
-    3. Copyright - 113
-    4. Media Qurey for Mobile size - 122
+    3. Copyright - 114
+    4. Media Qurey for Mobile size - 123
 */
 
 
@@ -76,6 +76,7 @@ form input{
 
 .dropdown select{
     cursor: pointer;
+    background-color: #fff;
 }
 
 .select-container{
