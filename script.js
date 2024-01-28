@@ -60,3 +60,6 @@ btn.addEventListener("click", (evt) => {
 window.addEventListener("load", () => {
     updateExchangeRate();
 });
+
+var currentYear = new Date().getFullYear();
+document.getElementById("year").textContent = currentYear;

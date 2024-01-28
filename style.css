@@ -6,6 +6,7 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 213, 202);
@@ -16,17 +17,33 @@ body h1{
     text-align: center;
 }
 
+
+
+
+/*
+    1. Container - 33
+    2. Form - 46
+    3. Copyright - 113
+    4. Media Qurey for Mobile size - 122
+*/
+
+
+
+
+/* 1. Container */
+
 .container{
     background-color: rgb(255, 255, 255);
     height: 60vh;
     width: 60vh;
     padding: 1rem;
+    margin: 3rem;
     border-radius: 2rem;
 }
 
-.flag{
-    width: 2rem;
-}
+
+
+/* 2. Form */
 
 form{
     margin: 1rem 0.75rem;
@@ -70,6 +87,10 @@ form input{
     padding: 0.2rem;
 }
 
+.flag{
+    width: 2rem;
+}
+
 .msg{
     margin: 2rem 0 2rem 0;
 }
@@ -86,3 +107,24 @@ button:hover{
     background-color: purple;
     color: whitesmoke;
 }
+
+
+
+/* 3. Copyright */
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+
+
+
+/* 4. Media Query for Mobile size */
+
+@media(max-width:470px){
+    .container{
+        width: auto;
+        height: auto;
+    }
+}
+
